@@ -1,0 +1,69 @@
+- update JMTools #if BARDOLF
+
+
+long term
+- update input manager to use InputType enum: Held, Down, Up instead of
+  separate functions
+
+start: -5
+Bardolf FInal: 88.5
+
+BUGS
+- main weapon has no time limitation? should act exactly like normal cards
+
+BIGGEST TO DO THING - PUT THESE ALL IN BITBUCKET'S ISSUE TRACKER!  
+TUTORIAL
+* show which buttons are being used (test if controller or keyboard before entering)
+* explain spell selection: 
+        - deck
+        - spell bag
+        - where spells come from
+        - how they're selected
+        - what happens after they're used 
+
+GAME ADDITIONS
+- "synergize" button to combine matching spells of different elements
+        - uses a turn but creates stronger synergized spell
+        - synergized spells can match with spells matching either element
+- can select multiple spells with matching elements
+        - but what about synergy elements? i.e. water + earth/air
+* animate misses to make them more obvious
+* "no" sound for selecting invalid option
+* gray out invalid options in battle card select
+* receive spells based on enemy type (from selection of enemy-related spells)
+        - potential for healing instead, higher chance if HP is lower
+* slight delay after spell select in battle
+* determine distinction between safe and unsafe (combat) areas
+* randomize time between AI movements and attacks
+* battle card: target specific row/column/cell
+* battle card: target cell based on enemy position
+* battle card: auto-target enemy
+* battle card: damage based on distance to target
+* save/load
+* healing cards (Spirit element)
+
+CONTENT
+* bonk SFX in battle/field
+* different battle music for Bardolf
+* Bardolf's lair music: creepy (current tune is more town/castle)
+* title screen+music
+* different hit sound for player/enemy
+* sound for opening treasure
+* victory chime
+
+TECH ADDITIONS
+* render delays for menus to simulate game boy feel
+* allow user to set magnification relative to GB resolution
+* start to pause in battle (already done?)
+* cell owner change should be "self" or "other" not Player/Enemy
+* return to title after game over (or restart game)
+* map with enemy list for current region (actual Map for MapManager)
+* allow hold up/down for menu
+* built-in scroll up/down in MenuCursor/DeckMenu? (instead of events)
+* allow battle card multi editing
+* JMTools Game Properties: get names of scenes from dragged-in scene objects
+* JMTools Game Properties: button to automatically populate scene list
+* JMTools Game Properties: bool for whether to copy readme (and name?)
+
+OPTIMIZATION
+* store a_user as m_user in BattleCard to save process time

@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1838334414941682}
+  m_IsPrefabAsset: 1
+--- !u!1 &1838334414941682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4205281103618294}
+  - component: {fileID: 114567657248587736}
+  m_Layer: 9
+  m_Name: Scythe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4205281103618294
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1838334414941682}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114567657248587736
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1838334414941682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99c8fec77dfd5c0428dd38897aca6b64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_debug: 0
+  m_displayName: Scythe
+  m_attackType: 0
+  m_element: 6
+  m_cellOwnerChange: 2
+  m_cellTypeChange: 12
+  m_damageStayTimeSec: 0.1
+  m_damage: 20
+  m_startDistance: 1
+  m_stepDelaySec: 0
+  m_stepMax: 1
+  m_spreadAfterHit: 0
+  m_initialDelaySec: 1
+  m_spreadE: 0
+  m_spreadNE: 0
+  m_spreadN: 1
+  m_spreadNW: 0
+  m_spreadS: 1
+  m_spreadSE: 0
+  m_spreadSW: 0
+  m_spreadW: 0
+  m_detailSprite: {fileID: 21300000, guid: 66ed3061616d447488f9e043f04ec376, type: 3}
+  m_fieldSprite: {fileID: 21300000, guid: 66ed3061616d447488f9e043f04ec376, type: 3}
+  m_iconSprite: {fileID: 21300000, guid: cad39eddd45aa6c4f9d0d35068238643, type: 3}
+  Id: 3
